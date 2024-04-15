@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/*
+#ebe5c5
+#83e1ab
+#3ddc84
+#2fa866
+#1a5c37
+#063d1e
+*/
+
+
+@font-face {
+    font-family: idroid;
+    src: url(/Desafios/d010/fontes/idroid.otf) format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+body {
+    background-color: #c5ebd6;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+header {    
+    background-image: linear-gradient(to top, #1B5931, #3DD973);
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 1px;
+}
+
+nav {
+    background-color: #1B5931;
+    text-align: left;
+    text-indent: 30px;
+    text-decoration: solid;
+    color: white;
+    padding: 1px 1px 1px 1px;
+}
+nav a:hover {
+    background-color: #3DD973;
+    padding: 1px 1px 1px 1px;
+}
+main {
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+article {
+    text-align: justify;
+}
+article > h1, h2, h3 {
+    font-family: 'idroid';
+    color: #1B5931;
+    text-align: left;
+}
+h3 {
+    background-image: linear-gradient(to right, #3dd9747c,white);
+    text-indent: 5px;
+}
+p {
+    text-indent: 30px;
+}
+p > a {
+    background-color: #3dd974;
+    color: #1B5931;
+    font-weight: bold;
+    text-decoration: solid;
+}
+p > a::after {
+    content: " \1F517";
+}
+strong {
+    color: #1B5931;
+}
+picture {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+}
+div#video-container {
+    background-color: #1B5931;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+}
+h4 {
+    background-color: #2eaf5b;
+    color: white;
+    border-radius: 8px 8px 0px 0px;
+    text-indent: 5px;
+}
+aside {
+    background-color: #82d9a091;
+    border-radius: 8px 8px 8px 8px;
+}
+section > article > p {
+    padding: 0px 10px;
+}
