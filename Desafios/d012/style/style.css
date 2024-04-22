@@ -41,25 +41,3 @@ h1 {
     font-family: 'Alegreya', sans-serif;
     font-weight: bolder;
 }
-
-article > p {
-    font-family: var(--fonte-cordel);
-    padding: 10px;
-}
-
-.cor-solida {
-    background-color: var(--cor0);
-    
-}
-
-.paralise {
-    
-    color: var(--cor0);
-}
-#estrofe2 {
-    background-image: url(/Desafios/d012/imagens/background001.jpg);
-}
-
-#estrofe4 {
-    background-image: url(/Desafios/d012/imagens/background002.jpg);
-}
