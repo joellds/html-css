@@ -61,14 +61,30 @@ section.normal {
 }
 
 section.imagem {
-    background-color: rgba(0, 0, 0, 0.651);
+    background-color: rgba(0, 0, 0, 0.637);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.637);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.445);
+    background-color: rgba(0, 0, 0, 0.548);
+    text-shadow: 1px 1px 0px black;
+}
+
+#imagem1 {
+    background-image: url(/Desafios/d012/imagens/background001.jpg);
+    background-position: right center;
+    
+}
+
+#imagem2 {
+    background-image: url(/Desafios/d012/imagens/background002.jpg);
+    background-position: right center;
+    
 }
 
 footer {
